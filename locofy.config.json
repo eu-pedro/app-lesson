@@ -1,0 +1,17 @@
+{
+  "components": [
+    "./app/page.tsx",
+    "./app/**/page.tsx",
+
+    "./components/course-form.tsx",
+    "./components/lesson-form.tsx",
+    "./components/create-course-modal.tsx",
+    "./components/create-lesson-modal.tsx",
+    "./components/edit-lesson-modal.tsx",
+    "./components/delete-lesson-button.tsx",
+    "./components/theme-provider.tsx"
+  ],
+  "wrapper": "./app/layout.tsx",
+  "webpack": "./webpack.locofy.js",
+  "publicPath": "./public"
+}
